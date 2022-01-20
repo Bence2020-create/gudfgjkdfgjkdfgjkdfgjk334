@@ -1,0 +1,156 @@
+html {
+    scroll-behavior: smooth;
+}
+.gombok {
+
+    background-color: #212427;
+    overflow: hidden;
+    padding: 20px;
+
+
+}
+
+
+
+footer h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  #black2 {
+    background-color: rgb(11, 67, 252);
+    padding: 30px;
+    margin: auto;
+
+  
+  }
+#black {
+  background-color: black;
+  padding: 40px;
+  margin: auto;
+  margin-right: 25px;
+
+}
+#fooldal_iras {
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#fooldal_letet {
+    width: 98%;
+    position: absolute;
+    top: 30%;
+  
+  }
+#fooldal{
+  font-weight: 900px;
+  font-size: 42px;
+  color: #00A4FF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.beta_card {
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 45px;
+  color: blue;
+  border-radius: 40px;
+  box-shadow: rgba(0, 164, 255, 1) 5px 5px 15px 5px;
+  transition: all .5s;
+  height: 400px;
+  max-width: 190px;
+  min-width: 190px;
+  margin: auto;
+}
+.beta_card h1 {
+  font-size: 24px;
+  text-align: center;
+}
+.beta_card:hover {
+  transform: scale(1.16);
+}
+.beta_card h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 250;
+  color: #00A4FF;
+
+}
+.meghivas {
+  background-color: #00A4FF;
+  padding: 35px;
+  margin-top: -500px;
+}
+button {
+
+  margin: -40px -150px; 
+  position:relative;
+  top:50%; 
+  left:50%;
+  border: 2px solid;
+  color: blue;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #00A4FF;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px;
+  font-size: 25px;
+  transition: all 0.2s;
+  border-color: blue;
+
+
+  margin-top: -10px;
+}
+button:hover {
+  background-color: transparent;
+  color: #00A4FF;
+  background-color: blue;
+  transform: scale(1.30);
+  border: 2px solid;
+  border-color: black;
+}
+.footer {
+  background-color: #00A4FF;
+  margin-top: 150px;
+
+}
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: #212427;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  background-color: #00A4FF;
+  border-radius: 10px;
+}
+#tudnivalok {
+  margin: 600px 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 15px;
+  
+}
+.feketehatter {
+    background-color: #212427;
+
+
+}
+
+  .gombok a{
+    float: right;
+    color: #00A4FF;
+    padding: 17px 23px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .gombok a:hover {
+    background-color: #00A4FF;
+    color: blue;
+  }
+  .gombok a.jelenlegi {
+    background-color: blue;
+    color: #00A4FF;
+  }
