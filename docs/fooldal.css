@@ -3,9 +3,10 @@ html {
 }
 .gombok {
 
-    background-color: #212427;
+    border: 3.5px solid;
     overflow: hidden;
     padding: 20px;
+    background-color: rgb(11, 67, 252);
 
 
 }
@@ -19,7 +20,7 @@ footer h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
   #black2 {
-    background-color: rgb(17, 61, 206);
+    background-color: rgb(11, 67, 252);
     padding: 30px;
     margin: auto;
 
@@ -33,17 +34,22 @@ footer h2 {
 
 }
 #fooldal_iras {
+
   font-size: 22px;
   color: white;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
 }
 #fooldal_letet {
-    width: 98%;
+    width: 97%;
     position: absolute;
     top: 30%;
   
   }
+img:hover {
+  transform: scale(1.6);
+  transition: all 0.5s;
+}
 #fooldal{
   font-weight: 900px;
   font-size: 42px;
@@ -137,10 +143,12 @@ button:hover {
 
 
 }
-
   .gombok a{
     float: right;
+    border-color: #00A4FF;;
+    border: 2px solid;
     color: #00A4FF;
+    margin: 0 8px;
     padding: 17px 23px;
     text-decoration: none;
     font-size: 25px;
@@ -149,8 +157,7 @@ button:hover {
   .gombok a:hover {
     background-color: #00A4FF;
     color: blue;
-  }
-  .gombok a.jelenlegi {
-    background-color: blue;
-    color: #00A4FF;
+    border-color: blue;
+    border: 2px solid;
+    transform: scale(1.16);
   }
